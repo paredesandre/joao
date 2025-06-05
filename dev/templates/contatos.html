@@ -1,0 +1,50 @@
+
+{% extends "homepage.html" %}
+
+{% block menu %}  
+<nav class="navbar">
+ 
+   <div>
+        
+        <p>JFC - Consultoria em Tecnologia da Informação  </p>
+    </div>
+     
+    
+ 
+</nav>
+{% endblock %}
+{% block menubar %} 
+
+  <nav class="navbar_menu">
+    
+        
+    
+    <div>
+        <a href="{{ url_for('automacao') }}">Automação </a>
+    </div>    
+    <div>
+        <a href="{{ url_for('contatos') }}">Analise de Dados</a>
+    </div>
+    <div>    
+
+        <a href="{{ url_for('contatos') }}">Aplicação</a>
+    </div>    
+    <div>
+        <a href="{{ url_for('contatos') }}">Projetos</a>
+    </div>
+
+      <div>
+      
+        <a href="{{ url_for('homepage') }}">Sair</a>
+      </div>
+     
+  </nav>
+
+
+<div ckass="caixa">
+  teste
+</div>  
+
+{% endblock %}
+ 
+
